@@ -1,0 +1,149 @@
+body{
+    background-color:rgb(245, 243, 243);
+     border: rgb(212, 15, 15) solid;
+    }
+    *{
+        color:rgb(151, 25, 25);
+        text-align: center;
+        font-family: Brush Script MT; 
+        font-size: 40px;
+          }
+h1{
+    color:rgb(151, 25, 25);
+    text-align: center;
+    font-family: Brush Script MT; 
+    font-size: 80px;
+}
+
+.navegacion {
+    width: 1000px;
+    margin:30px auto;
+    background: red;
+    
+
+}
+
+.navegacion ul{
+ list-style: none;
+ 
+ margin:auto; 
+ border:black solid;
+}
+.menu > li{
+    /*position: relative;*/
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px ;
+    color: white;
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: cornflowerblue;
+    transition: all .3s;
+    
+}
+.submenu{
+    position: absolute;
+    background: rgb(211, 42, 42);
+    display: none;
+    
+
+}
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menu li:hover .submenu {
+    display: block;
+
+
+}
+
+.whites-text{
+    
+    text-align-last:center;
+    display: block;
+    padding: 15px 20px ;
+    color:black;
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-style: oblique;
+}
+.integrantes {
+    text-align:  center;
+    color:rgb(151, 25, 25);
+    font-size: 30px;
+    font-family: monospace;
+    font-style: italic;
+    text-decoration:none;
+display: block;
+
+}
+.esferica { 
+    width: 150px;
+    text-align: justify;
+       
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.header {
+    width: 100;
+    height: 50px;
+    background: rgb(165, 160, 157);
+
+}
+.ctn-header{
+    width: 100;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+.lbl-header{
+    font-family: cursive;
+    font-size: 20px;
+    
+}
+.ctn-data{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    
+}
+.p-data {
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 10px;
+    background: rgb(173, 167, 155);
+}
+.ctn-lbl-comentar {
+    width: 100%;
+    text-align: center;
+
+}
+.lbl-comentar{
+    font-family: cursive;
+    font-size: 20px;
+
+    text-shadow: rgb(105, 26, 26);
+}
+.grande{
+    width: 800px;
+    height: 550px;
+}
+.presentacion{
+    width: 700px;
+    height: 500px;
+}
